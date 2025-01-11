@@ -26,3 +26,12 @@ D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Debug\We
 D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeSheetManagement.Interface.csprojResolveAssemblyReference.cache
 D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeSheetManagement.Interface.dll
 D:\Projects\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeSheetManagement.Interface.pdb
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Debug\WebTimeSheetManagement.Interface.dll
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Debug\WebTimeSheetManagement.Interface.pdb
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Debug\WebTimeSheetManagement.Models.dll
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\bin\Debug\WebTimeSheetManagement.Models.pdb
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeSheetManagement.Interface.csproj.AssemblyReference.cache
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeSheetManagement.Interface.csproj.CoreCompileInputs.cache
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeS.6A395147.Up2Date
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeSheetManagement.Interface.dll
+C:\dev\GitRepos\WebTimeSheetManagement\WebTimeSheetManagement.Interface\obj\Debug\WebTimeSheetManagement.Interface.pdb

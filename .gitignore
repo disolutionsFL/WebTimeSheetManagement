@@ -23,3 +23,15 @@ $RECYCLE.BIN/
 # =========================
 /.vs
 /WebTimeSheetManagement.Models/.vs
+
+/bin
+/WebTimeSheetManagement/bin
+/WebTimeSheetManagement.Models/bin
+/WebTimeSheetManagement.Concrete/bin
+/WebTimeSheetManagement.Interfaces/bin
+
+
+/WebTimeSheetManagement/obj
+/WebTimeSheetManagement.Models/obj
+/WebTimeSheetManagement.Concrete/obj
+/WebTimeSheetManagement.Interfaces/obj
