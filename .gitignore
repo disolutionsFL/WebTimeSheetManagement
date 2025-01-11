@@ -74,3 +74,10 @@ $RECYCLE.BIN/
 /WebTimeSheetManagement/obj/Release/WebTimeSheetManagement.csproj.FileListAbsolute.txt
 /WebTimeSheetManagement/obj/Release/WebTimeSheetManagement.dll
 /WebTimeSheetManagement/obj/Release/WebTimeSheetManagement.pdb
+/WebTimeSheetManagement/bin/Dapper.dll
+/WebTimeSheetManagement/bin/Dapper.xml
+/WebTimeSheetManagement/bin/EntityFramework.SqlServer.dll
+/WebTimeSheetManagement/bin/EntityFramework.SqlServer.xml
+/WebTimeSheetManagement/bin/EntityFramework.dll
+/WebTimeSheetManagement/bin/EntityFramework.xml
+/WebTimeSheetManagement/bin/System.Linq.Dynamic.dll
