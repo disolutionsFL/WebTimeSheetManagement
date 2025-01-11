@@ -21,8 +21,8 @@ $RECYCLE.BIN/
 # =========================
 # Operating System Files
 # =========================
-.vs/
-bin/
-obj/
+**/.vs/
+**/bin/
+**/obj/
 *.pdb
 *.csproj.user
