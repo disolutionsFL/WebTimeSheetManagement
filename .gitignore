@@ -26,3 +26,13 @@ $RECYCLE.BIN/
 **/obj/
 *.pdb
 *.csproj.user
+/WebTimeSheetManagement/bin/WebTimeSheetManagement.Concrete.dll
+/WebTimeSheetManagement/bin/WebTimeSheetManagement.dll
+/WebTimeSheetManagement/obj/Debug/WebTimeSheetManagement.dll
+/WebTimeSheetManagement/obj/Debug/WebTimeSheetManagement.pdb
+/WebTimeSheetManagement/bin/WebTimeSheetManagement.Concrete.pdb
+/WebTimeSheetManagement/bin/WebTimeSheetManagement.pdb
+/WebTimeSheetManagement.Concrete/bin/Debug/WebTimeSheetManagement.Concrete.dll
+/WebTimeSheetManagement.Concrete/bin/Debug/WebTimeSheetManagement.Concrete.pdb
+/WebTimeSheetManagement.Concrete/obj/Debug/WebTimeSheetManagement.Concrete.dll
+/WebTimeSheetManagement.Concrete/obj/Debug/WebTimeSheetManagement.Concrete.pdb
