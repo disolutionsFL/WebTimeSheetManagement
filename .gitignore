@@ -82,3 +82,7 @@ $RECYCLE.BIN/
 /WebTimeSheetManagement/bin/EntityFramework.xml
 /WebTimeSheetManagement/bin/System.Linq.Dynamic.dll
 /WebTimeSheetManagement/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/WebTimeSheetManagement/bin/Antlr3.Runtime.dll
+/WebTimeSheetManagement/bin/Antlr3.Runtime.pdb
+/WebTimeSheetManagement/bin/Elmah.dll
+/WebTimeSheetManagement/bin/WebGrease.dll
