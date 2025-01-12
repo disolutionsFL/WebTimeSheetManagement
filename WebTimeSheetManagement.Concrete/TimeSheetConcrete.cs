@@ -360,20 +360,7 @@ namespace WebTimeSheetManagement.Concrete
                 using (var _context = new DatabaseContext())
                 {
 
-                    var timesheetcount = (from ex in _context.TimeSheetMaster
-                                          where ex.TimeSheetMasterID == TimeSheetMasterID
-                                          select ex).Count();
-
-                    if (timesheetcount > 0)
-                    {
-                        TimeSheetMaster timesheet = (from ex in _context.TimeSheetMaster
-                                                     where ex.TimeSheetMasterID == TimeSheetMasterID
-                                                     select ex).SingleOrDefault();
-
-                        _context.TimeSheetMaster.Remove(timesheet);
-                        resultTimeSheetMaster = _context.SaveChanges();
-                    }
-
+                    //Delete details FIRST
                     var timesheetdetailscount = (from ex in _context.TimeSheetDetails
                                                  where ex.TimeSheetMasterID == TimeSheetMasterID
                                                  select ex).Count();
@@ -389,6 +376,23 @@ namespace WebTimeSheetManagement.Concrete
                         resultTimeSheetDetails = _context.SaveChanges();
 
                     }
+
+
+                    var timesheetcount = (from ex in _context.TimeSheetMaster
+                                          where ex.TimeSheetMasterID == TimeSheetMasterID
+                                          select ex).Count();
+
+                    if (timesheetcount > 0)
+                    {
+                        TimeSheetMaster timesheet = (from ex in _context.TimeSheetMaster
+                                                     where ex.TimeSheetMasterID == TimeSheetMasterID
+                                                     select ex).SingleOrDefault();
+
+                        _context.TimeSheetMaster.Remove(timesheet);
+                        resultTimeSheetMaster = _context.SaveChanges();
+                    }
+
+
 
                     if (resultTimeSheetMaster > 0 || resultTimeSheetDetails > 0)
                     {

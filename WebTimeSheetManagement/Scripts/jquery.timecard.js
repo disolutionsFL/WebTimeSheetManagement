@@ -10,7 +10,7 @@
         changeMonth: true,
         changeYear: true,
         constrainInput: false,
-        yearRange: new Date().getFullYear() + ':' + new Date().getFullYear(),
+        yearRange: new Date().getFullYear() - 1 + ':' + new Date().getFullYear(),
         onSelect: function (selectedDate) {
             CheckIsDateAlreadyUsed(selectedDate);
 

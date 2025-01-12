@@ -75,7 +75,14 @@
                 { "data": "Comment", "name": "Comment", "title": "Comment", "autoWidth": true },
                 {
                     "render": function (data, type, full, meta)
-                    { return '<a class="btn btn-info" href="/AllTimeSheet/Details/' + full.TimeSheetMasterID + '">View</a>'; }
+                    {
+                        var html = '<a class="btn btn-info" href="/AllTimeSheet/Details/' + full.TimeSheetMasterID + '">View</a>';
+                        html += ' &nbsp; <a class="btn btn-success" onclick=EditData("' + full.TimeSheetMasterID + '"); >Edit</a>';
+                        html += ' &nbsp; <a class="btn btn-danger" onclick=DeleteData("' + full.TimeSheetMasterID + '"); >Delete</a>';
+
+                        return html;
+
+                    }
                 },
             ]
 
@@ -88,6 +95,11 @@
 
 <script type="text/javascript">
 
+    function EditData(ID) {
+
+        toastr.info("Coming Soon", "Notification");
+    }
+
     function DeleteData(ID) {
         if (confirm("Are you sure you want to delete ...?")) {
             DeleteSheet(ID);
@@ -96,6 +108,7 @@
             return false;
         }
     }
+
     function DeleteSheet(ID) {
         var url = '@Url.Content("~/")' + "TimeSheet/Delete";
         $.post(url, { TimeSheetMasterID: ID }, function (data) {

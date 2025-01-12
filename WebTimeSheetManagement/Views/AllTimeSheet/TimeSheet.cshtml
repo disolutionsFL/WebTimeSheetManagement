@@ -58,16 +58,16 @@
                   "searchable": false,
                   "orderable": false
               },
-                {
-                    "targets": [7],
-                    "searchable": false,
-                    "orderable": false
-                },
-                  {
-                      "targets": [8],
-                      "searchable": false,
-                      "orderable": false
-                  }
+            {
+                "targets": [7],
+                "searchable": false,
+                "orderable": false
+            },
+            {
+                "targets": [8],
+                "searchable": false,
+                "orderable": false
+            }
 
 
             ],
@@ -81,12 +81,17 @@
                 { "data": "Comment", "name": "Comment", "title": "Comment", "autoWidth": true },
                 {
                     "render": function (data, type, full, meta)
-                    { return '<a class="btn btn-info" href="/AllTimeSheet/Details/' + full.TimeSheetMasterID + '">View</a>'; }
+                    {
+                        var html = '<a class="btn btn-info" href="/AllTimeSheet/Details/' + full.TimeSheetMasterID + '">View</a>';
+                        html += ' &nbsp; <a class="btn btn-success" onclick=EditData("' + full.TimeSheetMasterID + '"); >Edit</a>';
+                        
+                        return html;
+                    }
                 },
                  {
                      data: null, render: function (data, type, row) {
                          if (row.TimeSheetStatus == "Submitted" || row.TimeSheetStatus == "Rejected") {
-                             return "<a href='#' class='btn btn-danger' onclick=DeleteData('" + row.TimeSheetMasterID + "'); >Delete</a>";
+                             return "<a href='#' class='btn btn-danger' title='Current status: " + row.TimeSheetStatus + "' onclick=DeleteData('" + row.TimeSheetMasterID + "'); >Delete</a>";
                          }
                          else {
                              return row.TimeSheetStatus;
@@ -103,6 +108,11 @@
 </script>
 
 <script type="text/javascript">
+
+    function EditData(ID) {
+
+        toastr.info("Coming Soon", "Notification");
+    }
 
     function DeleteData(ID) {
         if (confirm("Are you sure you want to delete ...?")) {
